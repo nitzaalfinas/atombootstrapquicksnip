@@ -1,9 +1,10 @@
 {
   "name": "bootstrap4-quicksnip",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Bootstrap 4 Snippets",
   "keywords": [
     "bootstrap 4",
+    "bootstrap 4.4",
     "bootstrap"
   ],
   "repository": "https://github.com/nitzaalfinas/atomntzbootstrap4",

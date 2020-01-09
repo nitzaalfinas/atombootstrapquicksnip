@@ -18,7 +18,7 @@ Version:
 
 ## Templates &amp; Components
 
-  - `bsHtml`: Basic HTML Template and Bootstrap CDN
+  - `bsHtml`: Basic HTML Bootstrap Template and the CDN assets
   - `bsButtonPrimary`: Creating primary button component
   - `bsAlertPrimary`: Creating primary alert component
 

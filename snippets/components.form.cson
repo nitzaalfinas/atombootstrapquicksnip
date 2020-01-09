@@ -1,0 +1,166 @@
+'.html':
+
+#===================
+  'BS Form':
+    'prefix': 'bsForm'
+    'body': """
+<form>
+    <div class="form-group">
+        <label for="inputEmail3" class="col-md-2 col-form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail3">
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3" class="col-md-2 col-form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword3">
+    </div>
+    <div class="form-group">
+        <label for="select4" class="col-md-2 col-form-label">Country</label>
+        <select class="form-control" id="select4">
+            <option>Indonesia</option>
+            <option>Thailand</option>
+            <option>Malaysia</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="file5" class="col-md-2 col-form-label">Country</label>
+        <input type="file" class="form-control-file" id="file5">
+    </div>
+    <div class="form-group">
+        <label for="formControlRange" class="col-md-2 col-form-label">Country</label>
+        <input type="range" class="form-control-range" id="formControlRange">
+    </div>
+    <div class="form-group">
+        <legend class="col-form-label col-md-2 pt-0">Radios</legend>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+                First radio
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+                Second radio
+            </label>
+        </div>
+        <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+            <label class="form-check-label" for="gridRadios3">
+                Third disabled radio
+            </label>
+        </div>
+    </fieldset>
+    <div class="form-group">
+        <div class="col-md-2">Checkbox</div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+                Example checkbox
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+</form>
+"""
+
+#===================
+  'BS Form Horizontal':
+    'prefix': 'bsFormHorizontal'
+    'body': """
+<form>
+    <div class="form-group row">
+        <label for="inputEmail3" class="col-md-2 col-form-label">Email</label>
+        <div class="col-md-10">
+            <input type="email" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="inputPassword3" class="col-md-2 col-form-label">Password</label>
+        <div class="col-md-10">
+            <input type="password" class="form-control" id="inputPassword3">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="select4" class="col-md-2 col-form-label">Country</label>
+        <div class="col-md-10">
+            <select class="form-control" id="select4">
+                <option>Indonesia</option>
+                <option>Thailand</option>
+                <option>Malaysia</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="file5" class="col-md-2 col-form-label">Country</label>
+        <div class="col-md-10">
+            <input type="file" class="form-control-file" id="file5">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="formControlRange" class="col-md-2 col-form-label">Country</label>
+        <div class="col-md-10">
+            <input type="range" class="form-control-range" id="formControlRange">
+        </div>
+    </div>
+    <fieldset class="form-group">
+        <div class="row">
+            <legend class="col-form-label col-md-2 pt-0">Radios</legend>
+            <div class="col-md-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                        First radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Second radio
+                    </label>
+                </div>
+                <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                    <label class="form-check-label" for="gridRadios3">
+                        Third disabled radio
+                    </label>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <div class="form-group row">
+        <div class="col-md-2">Checkbox</div>
+        <div class="col-md-10">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                    Example checkbox
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-10">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+    </div>
+</form>
+"""
+
+#===================
+  'BS Form Inline':
+    'prefix': 'bsFormInline'
+    'body': """
+<form class="form-inline">
+    <div class="form-group mb-2">
+        <label for="staticEmail2" class="sr-only">Email</label>
+        <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="inputPassword2" class="sr-only">Password</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+</form>
+"""

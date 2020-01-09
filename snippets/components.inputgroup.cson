@@ -1,0 +1,72 @@
+'.html':
+
+#===================
+  'BS Input Group':
+    'prefix': 'bsInputGrp'
+    'body': """
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">@</span>
+    </div>
+    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+"""
+
+#===================
+  'BS Input Group with Checkbox':
+    'prefix': 'bsInputGrpChk'
+    'body': """
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <div class="input-group-text">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+        </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input">
+</div>
+"""
+
+#===================
+  'BS Input Group with Radio':
+    'prefix': 'bsInputGrpChk'
+    'body': """
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <div class="input-group-text">
+              <input type="radio" aria-label="Radio button for following text input">
+        </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input">
+</div>
+"""
+
+#===================
+  'BS Input Group with Button':
+    'prefix': 'bsInputGrpButton'
+    'body': """
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+    </div>
+    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+</div>
+"""
+
+#===================
+  'BS Input Group with Dropdown':
+    'prefix': 'bsInputGrpDropdown'
+    'body': """
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+</div>
+"""

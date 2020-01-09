@@ -4,7 +4,7 @@
   'BS Card':
     'prefix': 'bsCard'
     'body': """
-<div class="card">
+<div class="card" style="width: 18rem;">
     <div class="card-header">
         Featured
     </div>

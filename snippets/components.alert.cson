@@ -1,115 +1,97 @@
 '.html':
-# *************************** BS BUTTON ***************************
-#=================== standard
-  'BS Button Primary':
-    'prefix': 'bsButtonPrimary'
+
+#===================
+  'BS Alert Primary':
+    'prefix': 'bsAlertPrimary'
     'body': """
-<button type="button" class="btn btn-primary">Btn$1</button>
+<div class="alert alert-primary" role="alert">
+    $1
+</div>
 """
 
-#=================== standard
-  'BS Button Secondary':
-    'prefix': 'bsButtonSecondary'
+#===================
+  'BS Alert Secondary':
+    'prefix': 'bsAlertSecondary'
     'body': """
-<button type="button" class="btn btn-secondary">Btn$1</button>
+<div class="alert alert-secondary" role="alert">
+    $1
+</div>
 """
 
-#=================== standard
-  'BS Button Success':
-    'prefix': 'bsButtonSuccess'
+#===================
+  'BS Alert success':
+    'prefix': 'bsAlertSuccess'
     'body': """
-<button type="button" class="btn btn-success">Btn$1</button>
+<div class="alert alert-success" role="alert">
+    $1
+</div>
 """
 
-#=================== standard
-  'BS Button Danger':
-    'prefix': 'bsButtonDanger'
+#===================
+  'BS Alert Danger':
+    'prefix': 'bsAlertDanger'
     'body': """
-<button type="button" class="btn btn-danger">Btn$1</button>
+<div class="alert alert-danger" role="alert">
+    $1
+</div>
 """
 
-#=================== standard
-  'BS Button Warning':
-    'prefix': 'bsButtonWarning'
+#===================
+  'BS Alert Warning':
+    'prefix': 'bsAlertWarning'
     'body': """
-<button type="button" class="btn btn-warning">Btn$1</button>
+<div class="alert alert-danger" role="alert">
+    $1
+</div>
 """
 
-#=================== standard
-  'BS Button Info':
-    'prefix': 'bsButtonInfo'
+#===================
+  'BS Alert Info':
+    'prefix': 'bsAlertInfo'
     'body': """
-<button type="button" class="btn btn-info">Btn$1</button>
+<div class="alert alert-info" role="alert">
+    $1
+</div>
 """
 
-#=================== standard
-  'BS Button Light':
-    'prefix': 'bsButtonLight'
+#===================
+  'BS Alert Light':
+    'prefix': 'bsAlertLight'
     'body': """
-<button type="button" class="btn btn-light">Btn$1</button>
+<div class="alert alert-light" role="alert">
+    $1
+</div>
 """
 
-#=================== standard
-  'BS Button Dark':
-    'prefix': 'bsButtonDark'
+#===================
+  'BS Alert Dark':
+    'prefix': 'bsAlertDark'
     'body': """
-<button type="button" class="btn btn-dark">Btn$1</button>
+<div class="alert alert-dark" role="alert">
+    $1
+</div>
 """
 
-
-#=================== outline
-  'BS Button Primary Outline':
-    'prefix': 'bsButtonOutlinePrimary'
+#===================
+  'BS Alert Full Content':
+    'prefix': 'bsAlertFullContent'
     'body': """
-<button type="button" class="btn btn-outline-primary">Btn$1</button>
+<div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Well done!</h4>
+    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+    <hr>
+    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
 """
 
-#=================== outline
-  'BS Button Secondary Outline':
-    'prefix': 'bsButtonOutlineSecondary'
+#===================
+  'BS Alert With Dismiss Button Example':
+    'prefix': 'bsAlertDismisButton'
     'body': """
-<button type="button" class="btn btn-outline-secondary">Btn$1</button>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    $1<strong>Holy guacamole!</strong> You should check in on some of those fields below.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
 """
-
-#=================== outline
-  'BS Button Success Outline':
-    'prefix': 'bsButtonOutlineSuccess'
-    'body': """
-<button type="button" class="btn btn-outline-success">Btn$1</button>
-"""
-
-#=================== outline
-  'BS Button Danger Outline':
-    'prefix': 'bsButtonOutlineDanger'
-    'body': """
-<button type="button" class="btn btn-outline-danger">Btn$1</button>
-"""
-
-#=================== outline
-  'BS Button Warning Outline':
-    'prefix': 'bsButtonOutlineWarning'
-    'body': """
-<button type="button" class="btn btn-outline-warning">Btn$1</button>
-"""
-
-#=================== outline
-  'BS Button Info Outline':
-    'prefix': 'bsButtonOutlineInfo'
-    'body': """
-<button type="button" class="btn btn-outline-info">Btn$1</button>
-"""
-
-#=================== outline
-  'BS Button Light Outline':
-    'prefix': 'bsButtonOutlineLight'
-    'body': """
-<button type="button" class="btn btn-outline-light">Btn$1</button>
-"""
-
-#=================== outline
-  'BS Button Dark Outline':
-    'prefix': 'bsButtonOutlineDark'
-    'body': """
-<button type="button" class="btn btn-outline-dark">Btn$1</button>
-"""
-# *************************** BS BUTTON ***************************

@@ -1,0 +1,57 @@
+'.html':
+
+#===================
+  'BS Badge Primary':
+    'prefix': 'bsBadgePrimary'
+    'body': """
+<span class="badge badge-primary">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Secondary':
+    'prefix': 'bsBadgeSecondary'
+    'body': """
+<span class="badge badge-secondary">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Success':
+    'prefix': 'bsBadgeSuccess'
+    'body': """
+<span class="badge badge-success">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Danger':
+    'prefix': 'bsBadgeDanger'
+    'body': """
+<span class="badge badge-danger">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Warning':
+    'prefix': 'bsBadgeWarning'
+    'body': """
+<span class="badge badge-warning">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Info':
+    'prefix': 'bsBadgeInfo'
+    'body': """
+<span class="badge badge-info">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Light':
+    'prefix': 'bsBadgeLight'
+    'body': """
+<span class="badge badge-light">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Dark':
+    'prefix': 'bsBadgeDark'
+    'body': """
+<span class="badge badge-dark">Badge$1</span>
+"""

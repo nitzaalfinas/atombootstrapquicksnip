@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap4-quicksnip",
+  "version": "0.1",
+  "description": "Bootstrap 4 Snippets",
+  "keywords": [
+    "bootstrap 4",
+    "bootstrap"
+  ],
+  "repository": "https://github.com/nitzaalfinas/atomntzbootstrap4",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

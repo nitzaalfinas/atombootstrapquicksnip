@@ -7,7 +7,10 @@
     "bootstrap 4.4",
     "bootstrap"
   ],
-  "repository": "https://github.com/nitzaalfinas/atomntzbootstrap4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitzaalfinas/atombootstrapquicksnip"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

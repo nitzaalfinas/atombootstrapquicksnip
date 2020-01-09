@@ -2,7 +2,7 @@
 
 #===================
   'BS Modal':
-    'prefix': 'bsMediaObject'
+    'prefix': 'bsModal'
     'body': """
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
@@ -34,7 +34,7 @@
 
 #===================
   'BS Modal Vertical Center':
-    'prefix': 'bsMediaObject'
+    'prefix': 'bsModalVerticalCenter'
     'body': """
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">

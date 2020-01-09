@@ -1,0 +1,37 @@
+'.html':
+
+#===================
+  'BS Popover Top':
+    'prefix': 'bsPopoverTop'
+    'body': """
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    Popover
+</button>
+"""
+
+#===================
+  'BS Popover Right':
+    'prefix': 'bsPopoverRight'
+    'body': """
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    Popover
+</button>
+"""
+
+#===================
+  'BS Popover Bottom':
+    'prefix': 'bsPopoverBottom'
+    'body': """
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    Popover
+</button>
+"""
+
+#===================
+  'BS Popover Left':
+    'prefix': 'bsPopoverLeft'
+    'body': """
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    Popover
+</button>
+"""

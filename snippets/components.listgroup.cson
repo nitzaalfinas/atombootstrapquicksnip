@@ -15,7 +15,7 @@
 """
 
 #===================
-  'BS Media Object':
+  'BS Media Object List':
     'prefix': 'bsMediaObjectList'
     'body': """
 <ul class="list-unstyled">
